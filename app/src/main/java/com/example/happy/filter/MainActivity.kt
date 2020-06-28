@@ -1,6 +1,5 @@
 package com.example.happy.filter
 
-import android.app.Activity
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.support.v7.widget.LinearLayoutManager
@@ -8,9 +7,6 @@ import android.support.v7.widget.RecyclerView
 import android.text.TextUtils
 import android.view.View
 import android.view.ViewGroup
-import android.widget.ArrayAdapter
-import android.widget.CheckBox
-import android.widget.HorizontalScrollView
 import com.example.happy.filter.Holders.ParentHolder
 import com.example.happy.filter.Holders.TitleViewHolder
 import com.example.happy.filter.TreeView.Model.TreeNode
@@ -18,17 +14,12 @@ import com.example.happy.filter.TreeView.View.AndroidTreeView
 import com.example.happy.filter.models.BA_Roles_Response
 import com.example.happy.filter.models.DummyData
 import com.example.happy.filter.models.RolesAgent
-import com.example.happy.filter.models.SelectedAgentDetail
 import com.google.gson.Gson
 import kotlinx.android.synthetic.main.activity_main.*
 import rx.Single
 import rx.Subscription
 import rx.android.schedulers.AndroidSchedulers
 import rx.schedulers.Schedulers
-import java.util.*
-import kotlin.collections.ArrayList
-import kotlin.collections.HashMap
-
 
 class MainActivity : AppCompatActivity() {
 

@@ -1,6 +1,5 @@
 package com.example.happy.filter.Holders
 
-import android.app.Activity
 import android.content.Context
 import android.os.Build
 import android.support.annotation.RequiresApi
@@ -8,8 +7,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.widget.CheckBox
 import android.widget.ImageView
-import android.widget.RadioGroup
-import android.widget.Toast
 import com.example.happy.filter.MainActivity
 import com.example.happy.filter.R
 import com.example.happy.filter.TreeView.Model.TreeNode
